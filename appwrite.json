@@ -1,0 +1,22 @@
+{
+    "projectId": "650544da77c938948ffe",
+    "projectName": "amazon-details",
+    "functions": [
+        {
+            "$id": "65057b15324c4754d715",
+            "name": "backend-function",
+            "runtime": "node-18.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/backend-function",
+            "entrypoint": "src/main.js"
+        }
+    ]
+}
